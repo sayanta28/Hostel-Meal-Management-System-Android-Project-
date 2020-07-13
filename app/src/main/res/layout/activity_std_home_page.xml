@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Back"
+    tools:context=".StdHomePage">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:background="@mipmap/baiust_foreground" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:text="Welcome to BAIUST Hostel Homepage"
+        android:textColor="#9C27B0"
+        android:textSize="13pt"
+        android:layout_alignLeft="@+id/img"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/code"
+        android:text=""
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_alignBottom="@id/welcome"
+        android:layout_marginBottom="-60dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/welcome"
+        android:textStyle="italic"
+        android:textSize="10pt"
+        android:id="@+id/probtn"
+        android:layout_marginBottom="-112dp"
+        android:text="Profile" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/probtn"
+        android:textStyle="italic"
+        android:textSize="10pt"
+        android:id="@+id/routine"
+        android:layout_marginBottom="-65dp"
+        android:text="Meal Routine" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/routine"
+        android:textStyle="italic"
+        android:textSize="10pt"
+        android:id="@+id/notice"
+        android:layout_marginBottom="-65dp"
+        android:text="Notice" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Your Meal for Tomorrow:"
+        android:id="@+id/MealConfirm"
+        android:textColor="#E90B0B"
+        android:textStyle="bold"
+        android:layout_alignBottom="@id/notice"
+        android:layout_marginBottom="-60dp"
+        android:textSize="10pt"
+
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/MealConfirm"
+        android:text="Breakfast"
+        android:id="@+id/breakfast"
+        android:textStyle="bold"
+        android:textSize="8pt"
+        android:layout_marginBottom="-40dp"
+
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/MealConfirm"
+        android:text="Lunch"
+        android:textStyle="bold"
+        android:textSize="8pt"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="-40dp"
+        android:id="@+id/lunch"
+
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/MealConfirm"
+        android:text="Dinner"
+        android:id="@+id/dinner"
+        android:textStyle="bold"
+        android:textSize="8pt"
+        android:layout_marginLeft="230dp"
+        android:layout_marginBottom="-40dp"
+
+        />
+
+    <Button
+        android:id="@+id/mealcm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/breakfast"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="-55dp"
+        android:text="Confirm"
+        android:textSize="8pt"
+        android:visibility="gone"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/submit"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/breakfast"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="-41dp"
+        android:text="Meal Already Submitted!"
+        android:textColor="#E90B0B"
+        android:textSize="7pt"
+        android:visibility="gone"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+        android:id="@+id/log"
+        android:layout_alignBottom="@id/dinner"
+        android:layout_marginBottom="-50dp"
+        android:layout_marginLeft="200dp"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/breakfast"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:textColor="#A71414"
+        android:layout_marginBottom="-85dp"
+        android:text="N.B: In/Out Last time 8:00pm"
+        android:textSize="10pt"
+        />
+</RelativeLayout>

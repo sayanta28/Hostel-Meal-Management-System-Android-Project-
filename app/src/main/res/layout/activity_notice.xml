@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/Back"
+    tools:context=".notice">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:background="@mipmap/baiust_foreground" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/welcome"
+    android:layout_marginLeft="130dp"
+    android:layout_marginTop="50dp"
+    android:text="Welcome to BAIUST Hostel"
+    android:textColor="#9C27B0"
+    android:textSize="13pt"
+    android:layout_alignLeft="@+id/img"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notice"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="-80dp"
+        android:text="Notice:"
+        android:textStyle="bold"
+        android:textColor="#9C27B0"
+        android:textSize="13pt"
+        android:layout_alignBottom="@+id/welcome"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NoticeText"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="-60dp"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:textSize="11pt"
+        android:layout_alignBottom="@+id/notice"
+        />
+
+
+
+</RelativeLayout>

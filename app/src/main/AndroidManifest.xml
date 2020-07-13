@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.hostelapp">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permisson.SEND_SMS" />
+    <uses-permission android:name="android.permisson.RECEIVE_SMS" />
+    <uses-permission android:name="android.permisson.READ_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".testTab.TabMainActivity"></activity>
+        <activity android:name=".Details_Activity" />
+        <activity android:name=".notice" />
+        <activity android:name=".Std_Profile" />
+        <activity android:name=".mealroutine" />
+        <activity android:name=".std_reg_seat" />
+        <activity android:name=".admin_fromat" />
+        <activity android:name=".StdHomePage" />
+        <activity android:name=".loginAct" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

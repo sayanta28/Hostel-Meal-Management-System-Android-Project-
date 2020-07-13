@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Back"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:background="@mipmap/baiust_foreground" />
+
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignTop="@id/ques"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/manager" />
+
+    <Button
+        android:id="@+id/student"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@id/admin"
+        android:layout_marginLeft="166dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/student1"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/button_round"
+        android:padding="20dp"
+        android:id="@+id/ques"
+        android:text="Log In as?"
+        android:textSize="12pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BAIUST Hostel"
+        android:textStyle="bold"
+        android:textSize="14pt"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="90dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Back"
+    tools:context=".mealroutine">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:background="@mipmap/baiust_foreground" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:text="Welcome to BAIUST Hostel"
+        android:textColor="#9C27B0"
+        android:textSize="13pt"
+        android:layout_alignLeft="@+id/img"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breakfast per meal cost : 30"
+        android:id="@+id/bf"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:layout_marginBottom="-80dp"
+        android:layout_alignBottom="@id/welcome"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lunch per meal cost : 55"
+        android:id="@+id/ln"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:layout_marginBottom="-80dp"
+        android:layout_alignBottom="@id/bf"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dinner per meal cost : 45"
+        android:id="@+id/dn"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:layout_marginBottom="-80dp"
+        android:layout_alignBottom="@id/ln"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Back"
+    tools:context=".admin_fromat">
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:background="@mipmap/baiust_foreground" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="30dp"
+        android:text="Welcome to BAIUST Hostel Admin Homepage"
+        android:textColor="#9C27B0"
+        android:textSize="12pt"
+        android:layout_alignLeft="@+id/imglogo"
+        />
+
+    <TextView
+        android:id="@+id/breakfast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/welcome"
+
+        android:layout_marginTop="130dp"
+        android:text="Total MEAL for Breakfast:"
+        android:textColor="#E91E63"
+        android:textSize="11pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/breakfastvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/breakfast"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:text="0"
+        android:textColor="#E91E63"
+        android:textSize="11pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total MEAL for Lauch:"
+        android:textStyle="bold"
+        android:textSize="11pt"
+        android:textColor="#E91E63"
+        android:layout_alignTop="@id/breakfast"
+        android:layout_marginTop="50dp"
+        android:id="@+id/launch"
+        />
+
+    <TextView
+        android:id="@+id/launchvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/launch"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:text="0"
+        android:textColor="#E91E63"
+        android:textSize="11pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total MEAL for Dinner:"
+        android:textStyle="bold"
+        android:textSize="11pt"
+        android:textColor="#E91E63"
+        android:layout_alignTop="@id/launch"
+        android:layout_marginTop="50dp"
+        android:id="@+id/dinner"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monthly Bill:"
+        android:textStyle="bold"
+        android:textSize="11pt"
+        android:textColor="#E91E63"
+        android:layout_alignTop="@id/dinner"
+        android:layout_marginTop="50dp"
+        android:id="@+id/bill"
+        />
+
+    <TextView
+        android:id="@+id/dinnervalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/dinner"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:text="0"
+        android:textColor="#E91E63"
+        android:textSize="11pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/billvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/bill"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:text="0"
+        android:textColor="#E91E63"
+        android:textSize="11pt"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post a notice:"
+        android:textStyle="bold"
+        android:textSize="11pt"
+        android:textColor="#9C27B0"
+        android:layout_alignTop="@id/bill"
+        android:layout_marginTop="40dp"
+        android:id="@+id/noticetxt"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noticeabout"
+        android:hint="Write Text"
+        android:layout_alignTop="@id/noticetxt"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:id="@+id/noticebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/noticeabout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="65dp"
+        android:text="Post Notice" />
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/noticeabout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="66dp"
+        android:text="Log Out" />
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/logout"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="38dp"
+        android:text="Information" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register A New Student:"
+        android:textStyle="bold"
+        android:textSize="11pt"
+        android:textColor="#9C27B0"
+        android:layout_alignTop="@id/noticebtn"
+        android:layout_marginTop="80dp"
+        android:id="@+id/regstd"
+        />
+
+    <Button
+        android:id="@+id/regstdbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/regstd"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="39dp"
+        android:text="Go to registration page" />
+
+</RelativeLayout>

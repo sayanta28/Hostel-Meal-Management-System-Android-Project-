@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "481406198468",
+    "firebase_url": "https://hostel-app-4d75f.firebaseio.com",
+    "project_id": "hostel-app-4d75f",
+    "storage_bucket": "hostel-app-4d75f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481406198468:android:37fe3d044263a73e7b5f91",
+        "android_client_info": {
+          "package_name": "com.example.hostelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481406198468-h7ahf83ur4n89jt7api9a1dn4hif50lf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hostelapp",
+            "certificate_hash": "85681832237d261fe4f6f3d3784cfd8f4c6848fc"
+          }
+        },
+        {
+          "client_id": "481406198468-4kl2dsa8mahr7hehuhkbf1vktf6l6nl8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqcN1C1AA1jkPu5ewO3iW68Caywh-VJyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481406198468-4kl2dsa8mahr7hehuhkbf1vktf6l6nl8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
